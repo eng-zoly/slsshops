@@ -7,8 +7,7 @@ Google font
 ``` html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 ```
 
 Ionicon
@@ -23,50 +22,69 @@ Ionicon
 ## Colors
 
 ``` css
---red-orange-color-wheel: hsl(17, 96%, 48%);
---middle-blue-green: hsl(167, 45%, 72%);
---smokey-black: hsl(0, 0%, 7%);
---spanish-gray: hsl(0, 0%, 60%);
---granite-gray: hsl(0, 0%, 40%);
---tan-crayola: hsl(27, 46%, 58%);
+--hoockers-green_20: hsl(148, 20%, 38%, 0.2);
+--pale-spring-bud: hsl(60, 68%, 85%);
+--hoockers-green: hsl(148, 20%, 38%);
+--spanish-gray: hsl(0, 0%, 61%);
 --light-gray: hsl(0, 0%, 80%);
---black_10: hsla(0, 0%, 0%, 0.1);
---black_25: hsla(0, 0%, 0%, 0.25);
---black_50: hsla(0, 0%, 0%, 0.4);
+--cultured-1: hsl(0, 0%, 97%);
+--cultured-2: hsl(60, 6%, 93%);
+--gray-web: hsl(0, 0%, 49%);
+--white_30: hsl(0, 0%, 100%, 0.3);
 --black_70: hsla(0, 0%, 0%, 0.7);
---cultured: hsl(220, 16%, 96%);
---manatee: hsl(218, 11%, 65%);
---black: hsl(0, 0%, 0%);
+--black_50: hsla(0, 0%, 0%, 0.5);
+--black_15: hsla(0, 0%, 0%, 0.15);
+--black_10: hsla(0, 0%, 0%, 0.1);
+--black_5: hsla(0, 0%, 0%, 0.05);
 --white: hsl(0, 0%, 100%);
+--black: hsl(0, 0%, 0%);
+```
+
+## Gradient color
+
+``` css
+--gradient: linear-gradient(to right, transparent 50%, var(--white_30) 100%);
 ```
 
 ## Typography
 
 ``` css
---ff-roboto: 'Roboto', sans-serif;
---ff-mr_de_haviland: 'Mr De Haviland', cursive;
+--ff-urbanist: 'Urbanist', sans-serif;
 
---fs-1: 6rem;
---fs-2: 3rem;
---fs-3: 2rem;
---fs-4: 1.8rem;
---fs-5: 1.4rem;
---fs-6: 1.2rem;
+--fs-1: 4.8rem;
+--fs-2: 4rem;
+--fs-3: 3.4rem;
+--fs-4: 2.4rem;
+--fs-5: 2rem;
+--fs-6: 1.8rem;
+--fs-7: 1.5rem;
+--fs-8: 1.4rem;
+--fs-9: 1.3rem;
 
---fw-700: 700;
+--fw-400: 400;
 --fw-500: 500;
+--fw-600: 600;
+--fw-700: 700;
+--fw-800: 800;
 ```
 
 ## Spacing
 
 ``` css
---section-padding: 50px;
+--section-padding: 35px;
 ```
 
 ## Shadow
 
 ``` css
---shadow: 0 0 2px hsla(0, 0%, 0%, 0.2);
+--shadow-1: 0 8px 16px var(--black_15);
+--shadow-2: 0 4px 10px var(--black_5);
+```
+
+## Border Radius
+
+``` css
+--radius-3: 3px;
 ```
 
 ## Transition

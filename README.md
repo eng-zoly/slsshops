@@ -1,19 +1,19 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/woodex)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/woodex?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/woodex?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/glowing)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/glowing?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/glowing?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/NK8Cif0dAoM?style=social)](https://youtu.be/NK8Cif0dAoM)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/AMI-6F7CSFc?style=social)](https://youtu.be/AMI-6F7CSFc)
 
   <br />
   <br />
 
-  <h2 align="center">Woodex - Furniture eCommerce Website</h2>
+  <h2 align="center">Glowing - eCommerce Website</h2>
 
-  Woodex is a fully responsive furniture ecommerce website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Glowing is a fully responsive ecommerce website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/woodex/"><strong>➥ Live Demo</strong></a>
+  <a href="https://codewithsadee.github.io/glowing/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Woodex Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Glowing Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,18 +31,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Woodex** locally, run this command on your git bash:
+To run **Glowing** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/woodex.git
+sudo git clone https://github.com/codewithsadee/glowing.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/woodex.git
+git clone https://github.com/codewithsadee/glowing.git
 ```
 
 ### Contact

@@ -1,283 +1,282 @@
-Woodex - Get Quality Furniture
-This is an eCommerce html template made by codewithsadee
-
+Glowing - Reveal The Beauty of Skin
 
 
 
 #---------- HEADER ----------#
 
-placeholder = Search Anything...
+Free Shipping On All U.S. Orders $50+
+
+aria-label = open menu
+
+placeholder = Search product
+
+aria-label = search
 
 <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
 
-Woodex
+alt = Glowing
 
 aria-label = user
-<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
-aria-label = favorite list
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+aria-label = favourite item
+
+<ion-icon name="star-outline" aria-hidden="true"></ion-icon>
 0
 
-aria-label = cart
+aria-label = cart item
+
+$0.00
 <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
 0
 
-aria-label = open menu
-<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+Home
+Collection
+Shop
+Offer
+Blog
 
 
 
-#---------- SIDEBAR ----------#
+#---------- MOBILE NAVBAR ----------#
+
+alt = Glowing
 
 aria-label = close menu
+
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
 
-Language
-English
-French
-Arabric
-
-Currency
-USD - US Dollar
-Euro
-Pound
-
 Home
-About
-Product
-Blogs
-
-Contact Us
-
-69 Halsey St, Ny 10002, New York, United States
-
-support.center@woodex.co
-
-(0000) 1235 567890
-
-Follow US On Socials
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-tumblr"></ion-icon>
+Collection
+Shop
+Offer
+Blog
 
 
 
 #---------- HERO ----------#
 
-alt = Art Deco Home
+Reveal The
+Beauty of Skin
 
-Art Deco Home
+Made using clean, non-toxic ingredients, our products are designed for everyone.
 
-Decoration
+Starting at $7.99
 
-Helen Chair
-
-Vase Of Flowers
-
-Wood Eggs
-
-Table Wood Pine
-
-Furniture
+Shop Now
 
 
 
-#---------- ABOUT ----------#
+#---------- COLLECTION ----------#
 
-Woodex Store
+Summer Collection
 
-When you start with a portrait and search for a pure form, a clear volume, through successive eliminations, you arrive inevitably at the egg. Likewise, starting with the egg and following the same process in reverse, one finishes with the portrait.
+Starting at $17.99
 
-alt = Woodex promo
+Shop Now
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
-aria-label = play video
+What’s New?
 
-<ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon>
+Get the glow
+
+Discover Now
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+Buy 1 Get 1
+
+Starting at $7.99
+
+Discover Now
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
 
 
-#---------- PRODUCT ----------#
+#---------- SHOP ----------#
 
-Popular Products
+Our Bestsellers
 
-All Products
-Accessory
-Decoration
-Furniture
+Shop All Products
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
-filter = decoration
-alt = Animi Dolor Pariatur
+alt = Facial cleanser
 
-aria-label = add to cart
-<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+aria-label = 20% off
+-20%
 
 aria-label = add to cart
 <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
 
 aria-label = add to whishlist
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="star-outline" aria-hidden="true"></ion-icon>
 
-Sale
--10%
+aria-label = compare
+<ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
 
-Animi Dolor Pariatur
-$19.00
-$10.00
-
-filter = accessory
-Out of Stock
-Art Deco Home
-$30.00
-
-filter = decoration
-Artificial potted plant
-$40.00
-
-filter = accessory
-Dark Green Jug
-$17.10
-
-filter = accessory
-Drinking Glasses
-$21.00
-
-filter = furniture
-Helen Chair
-$69.50
-
-filter = accessory
-High Quality Glass Bottle
-$30.10
-
-filter = accessory
-Living Room & Bedroom Lights
-$45.00
-
-filter = furniture
-Nancy Chair
-$90.00
-
-filter = furniture
-Simple Chair
-$40.00
-
-filter = decoration
-Smooth Disk
-$46.00
-
-filter = furniture
-Table Black
-$67.00
-
-filter = furniture
-Table Wood Pine
-$50.00
-
-filter = accessory
-Teapot with black tea
-$25.00
-
-filter = decoration
-Unique Decoration
-$15.00
-
-filter = decoration
-Vase Of Flowers
-$77.00
-
-filter = decoration
-Wood Eggs
-$19.00
-
-filter = decoration
-Wooden Box
-$27.00
-
-filter = accessory
-Wooden Cups
+$39.00
 $29.00
+
+Facial cleanser
+
+aria-label = 5 start rating
+
+<ion-icon name="star" aria-hidden="true"></ion-icon>
+
+5170 reviews
+
+
+alt = Bio-shroom Rejuvenating Serum
+
+Bio-shroom Rejuvenating Serum
+
+
+alt = Coffee Bean Caffeine Eye Cream
+
+Coffee Bean Caffeine Eye Cream
+
+
+alt = Facial cleanser
+
+Facial cleanser
+
+
+alt = Coffee Bean Caffeine Eye Cream
+
+Coffee Bean Caffeine Eye Cream
+
+Under $25
+
+Shop All Products
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+
+
+#---------- BANNER ----------#
+
+New Collection
+
+Discover Our Autumn Skincare
+
+Explore More
+
+25% off Everything
+
+Makeup with extended range in colors for every human.
+
+Shop Sale
+
+
+
+#---------- FEATURE ----------#
+
+Why Shop with Glowing?
+
+alt = Guaranteed PURE
+
+Guaranteed PURE
+
+All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients
+
+alt = Completely Cruelty-Free
+Completely Cruelty-Free
+
+alt = Ingredient Sourcing
+Ingredient Sourcing
+
+
+
+#---------- OFFER ----------#
+
+alt = offer products
+
+Special Offer
+
+aria-label = 20% off
+
+-20%
+
+Mountain Pine Bath Oil
+
+Made using clean, non-toxic ingredients, our products are designed for everyone.
+
+aria-label = days
+15
+
+aria-label = hours
+21
+
+aria-label = minutes
+46
+
+aria-label = seconds
+08
+
+Get Only $39.00
 
 
 
 #---------- BLOG ----------#
 
-Explore our blog
+More to Discover
 
-View All
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+alt = Find a Store
+Find a Store
 
-alt = Unique products that will impress your home in 2022.
+Our Store
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-Read more
-<ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+alt = From Our Blog
+From Our Blog
 
-Unique products that will impress your home in 2022.
-
-November 27, 2022
-Admin
-in deco
-
-Navy Blue & White Striped Area Rugs
-
-November 25
-
-Woodex White Coated Staircase Floating
-
-November 18
-
-
-
-#---------- NEWSLETTER ----------#
-
-Our Newsletter
-
-Subscribe our newsletter and get discount 50% off
-
-placeholder = Your email address
-
-aria-label = subscribe
-
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+alt = Our Story
+Our Story
 
 
 
 #---------- FOOTER ----------#
 
-Woodex
+Company
 
-<ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
-Woodex, Chicago, USA 2022
+Find a location nearest you. See
+Our Stores
 
-<ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
-+1234567890
++391 (0)35 2568 4593
+hello@domain.com
 
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-tumblr"></ion-icon>
+Useful links
 
-Help & Information
-Help & Contact Us
-Returns & Refunds
-Online Stores
-Terms & Conditions
+New Products
+Best Sellers
+Bundle & Save
+Online Gift Card
 
-About Us
-About Us
-What We Do
-FAQ Page
+Infomation
+
+Start a Return
 Contact Us
+Shipping FAQ
+Terms & Conditions
+Privacy Policy
 
-Newsletter
-placeholder = Your email address
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+Good emails.
 
-Term & Condition
-Policy
-Map
+Enter your email below to be the first to know about new collections and product launches.
 
-&copy; 2022 All Rights Reserved by codewithsadee.
+placeholder = Enter your email address
+
+Subscribe
+
+&copy; 2022 codewithsadee
+
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+
+alt = Glowing
+
+alt = available all payment method
 
 
 

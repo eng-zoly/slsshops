@@ -22,15 +22,14 @@ const addEventOnElem = function (elem, type, callback) {
  * navbar toggle
  */
 
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
-const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
-  document.body.classList.toggle("active");
 }
 
 addEventOnElem(navTogglers, "click", toggleNavbar);
@@ -38,7 +37,6 @@ addEventOnElem(navTogglers, "click", toggleNavbar);
 const closeNavbar = function () {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
-  document.body.classList.remove("active");
 }
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
@@ -46,14 +44,14 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
 /**
- * header & back top btn active when window scroll down to 100px
+ * header sticky & back top btn active
  */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
-const showElemOnScroll = function () {
-  if (window.scrollY > 100) {
+const headerActive = function () {
+  if (window.scrollY > 150) {
     header.classList.add("active");
     backTopBtn.classList.add("active");
   } else {
@@ -62,25 +60,38 @@ const showElemOnScroll = function () {
   }
 }
 
-addEventOnElem(window, "scroll", showElemOnScroll);
+addEventOnElem(window, "scroll", headerActive);
+
+let lastScrolledPos = 0;
+
+const headerSticky = function () {
+  if (lastScrolledPos >= window.scrollY) {
+    header.classList.remove("header-hide");
+  } else {
+    header.classList.add("header-hide");
+  }
+
+  lastScrolledPos = window.scrollY;
+}
+
+addEventOnElem(window, "scroll", headerSticky);
 
 
 
 /**
- * product filter
+ * scroll reveal effect
  */
 
-const filterBtns = document.querySelectorAll("[data-filter-btn]");
-const filterBox = document.querySelector("[data-filter]");
+const sections = document.querySelectorAll("[data-section]");
 
-let lastClickedFilterBtn = filterBtns[0];
-
-const filter = function () {
-  lastClickedFilterBtn.classList.remove("active");
-  this.classList.add("active");
-  lastClickedFilterBtn = this;
-
-  filterBox.setAttribute("data-filter", this.dataset.filterBtn)
+const scrollReveal = function () {
+  for (let i = 0; i < sections.length; i++) {
+    if (sections[i].getBoundingClientRect().top < window.innerHeight / 2) {
+      sections[i].classList.add("active");
+    }
+  }
 }
 
-addEventOnElem(filterBtns, "click", filter);
+scrollReveal();
+
+addEventOnElem(window, "scroll", scrollReveal);
